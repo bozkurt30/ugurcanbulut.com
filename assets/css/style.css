@@ -1,0 +1,507 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .wrapper .container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    background-image: linear-gradient(to right, #C2DCF8 , #FDF7CA);
+  }
+/* div.container-1 {
+    /* background-image: url("../images/container-1-background.svg"); 
+    padding-left: 187px;
+    padding-right: 187px;
+    padding-bottom: 325px;
+} */
+
+div.container-1 section {
+    padding-top: 135px;
+}
+
+div.container-1 section.section-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*div.container-1 section.section-1 div.section-1-right {
+    /* padding-left: 45px; 
+}*/
+
+div.container-1 section.section-1 div.section-1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+    width: 495px;
+}
+
+div.container-1 section.section-1 div.section-1-left div.section-1-left-top h1 {
+    font-size: 52px;
+    font-weight: 100;
+    width: 459px;
+}
+
+div.container-1 section.section-1 div.section-1-left div.section-1-left-top p {
+    font-size: 20px;
+    width: 495px;
+}
+
+
+div.container-1 section.section-1 div.section-1-left div.section-1-left-bottom {
+    padding-top: 50px;
+}
+
+div.container-1 section.section-1 div.section-1-left div.section-1-left-bottom button {
+    border: none;
+    background-color: #FFC727;
+    width: 307px;
+    height: 67px;
+    border-radius: 21px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+
+div.container-1 section.section-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+div.container-1 section.section-2 img {
+    padding-left: 50px;
+}
+
+/* div.container-1 section.section-2 div.section-2-right {
+    /* padding-left: 185px; 
+} */
+
+div.container-1 section.section-2 div.section-2-right h1 {
+    font-size: 61px;
+    font-weight: 400;
+}
+
+div.container-1 section.section-2 div.section-2-right p {
+    font-size: 20px;
+    width: 693px;
+    line-height: 30px;
+}
+
+
+
+div.container-1 section.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container-1 section.section-3 h1 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+div.container-1 section.section-3 div.badges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1325px;
+}
+
+div.container-1 section.section-3 div.badges div.badge {
+    width: 205px;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+div.container-1 section.section-3 div.badges div.badge img.badge-image {
+    opacity: 30%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.57);
+}
+
+div.container-1 section.section-3 div.badges div.badge img.badge-image2 {
+    opacity: 30%;
+    display: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.57);
+
+}
+
+div.container-1 section.section-3 div.badges div.badge:hover img.badge-image {
+    display: none;
+    cursor: pointer;
+}
+
+div.container-1 section.section-3 div.badges div.badge:hover img.badge-image2 {
+    display: block;
+    cursor: pointer;
+}
+
+div.container-1 section.section-3 div.badges div.badge div.badge-text {
+    z-index: 1;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: black;
+}
+
+
+
+div.container-1 section.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container-1 section.section-4 h1 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+div.container-1 section.section-4 div.project-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1616px;
+}
+
+
+div.container-1 section.section-4 div.project-items div.project-item {
+    width: 320px;
+    padding: 0 42px;
+    padding-top: 35px;
+}
+
+
+div.container-1 section.section-4 div.project-items div.project-item div.project-item-text {
+    padding-top: 32px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+div.container-1 section.section-4 div.project-items div.project-item:hover div.project-item-text {
+    font-size: 35px;
+    line-height: 40px;
+    text-shadow: 0 0 2px rgba(0,0,0,0.57);
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+
+div.container-1 section.section-4 div.project-items div.project-item:hover img {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0), 0 0 20px 0 rgba(0, 0, 0, 0.62);
+}
+
+
+
+
+
+
+
+div.container-2 {
+    background-image: url("../images/container-2-background.svg");
+    padding-bottom: 300px;
+}
+
+div.container-2 h1.main-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 62px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 74px;
+    padding-bottom: 100px;
+}
+
+div.container-2 div.container-2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.container-2 div.container-2-content div.stages {
+    width: 170px;
+    height: 480px;
+}
+
+div.container-2 div.container-2-content div.stages h1.title {
+    font-size: 50px;
+    font-weight: 400;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+div.container-2 div.container-2-content div.stages h1.title:hover, div.container-2 div.container-2-content div.stages h1.title span {
+    opacity: unset;
+    font-size: 70px;
+    transition: font-size 0.7s;
+}
+
+div.container-2 div.container-2-content div.paragraph p {
+    font-size: 23px;
+    width: 823px;
+    height: 266px;
+}
+
+
+
+
+
+
+
+
+div.container-3 {
+    background-image: url("../images/footer-background.svg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 170px;
+    padding-top: 30px;
+    margin-top: -121px;
+    margin-right: 0px;
+    margin-left: -144px;
+}
+
+div.container-3 div.contact-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.container-3 div.contact-area h1 {
+    font-size: 62px;
+    font-weight: 400;
+    width: 625px;
+    height: 69px;
+}
+
+div.container-3 div.contact-area div.contact-area-bottom p {
+    width: 524px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+div.container-3 div.contact-area div.contact-area-bottom div.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.container-3 div.contact-area div.contact-area-bottom div.number span {
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+div.container-3 div.contact-area div.contact-area-bottom div.mail {
+    border: 3px solid #000000;
+    cursor: pointer;
+    width: 389px;
+    height: 87px;
+    font-size: 30px;
+    border-radius: 23px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container-3 div.form-area {
+    background-image: url("../images/form-area-background.svg");
+    width: 480px;
+    height: 572px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 120px;
+    /* margin-left: -250px; */
+}
+
+
+
+div.container-3 div.form-area h3 {
+    font-size: 22px;
+    font-weight: 400;
+    width: 406px;
+    margin-bottom: 9px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+div.container-3 div.form-area h3.form-area-top-title {
+    font-size: 22px;
+    font-weight: 400;
+    width: 406px;
+    margin-bottom: 9px;
+    margin-top: 63px;
+    margin-left: 25px;
+}
+
+div.container-3 div.form-area div.form-area-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+div.container-3 div.form-area div.form-area-top div.username {
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 406px;
+    height: 63px;
+}
+
+div.container-3 div.form-area div.form-area-top div.username img {
+    padding-left: 10px;
+}
+
+div.container-3 div.form-area div.form-area-top div.username input.name {
+    border: none;
+    font-size: 22px;
+    height: 30px;
+    width: 400px;
+    outline: none;
+}
+
+div.container-3 div.form-area div.form-area-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+div.container-3 div.form-area div.form-area-center div.user-mail {
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 406px;
+    height: 63px;
+}
+
+div.container-3 div.form-area div.form-area-center div.user-mail img {
+    padding-left: 10px;
+}
+
+div.container-3 div.form-area div.form-area-center div.user-mail input.mail {
+    border: none;
+    height: 30px;
+    font-size: 22px;
+    width: 400px;
+    outline: none;
+}
+
+
+div.container-3 div.form-area div.form-area-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    outline: none;
+}
+
+div.container-3 div.form-area div.form-area-bottom textarea.message {
+    width: 380px;
+    height: 120px;
+    border-radius: 21px;
+    border: none;
+    font-size: 18px;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 20px;
+    outline: none;
+}
+
+div.container-3 div.form-area div.send-message-button {
+    width: 100%;
+    margin-top: 18px;
+    margin-right: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+div.container-3 div.form-area div.send-message-button button {
+    border: none;
+    border-radius: 10px;
+    background-color: #FCC32B;
+    cursor: pointer;
+    width: 187px;
+    height: 41px;
+    margin-right: 52px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div.buttons img.wp-icon {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    cursor: pointer;
+}
+
+div.buttons img.go-top-icon {
+    position: fixed;
+    bottom: -150px;
+    right: 20px;
+    cursor: pointer;
+}
+
+div.buttons.active img.wp-icon {
+    right: 80px;
+    transition: 1s;
+}
+
+div.buttons.active img.go-top-icon {
+    bottom: 20px;
+    transition: 1s;
+}
+
+

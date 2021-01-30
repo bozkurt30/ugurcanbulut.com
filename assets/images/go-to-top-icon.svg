@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <filter id="Path_1706" x="0" y="0" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_900" data-name="Group 900" transform="translate(-1744 -795)" opacity="0.7">
+    <g transform="matrix(1, 0, 0, 1, 1744, 795)" filter="url(#Path_1706)">
+      <path id="Path_1706-2" data-name="Path 1706" d="M33,0A33,33,0,1,1,0,33,33,33,0,0,1,33,0Z" transform="translate(9 9)" fill="#37474f"/>
+    </g>
+    <g id="katman_2" data-name="katman 2" transform="translate(1763.325 821.742)">
+      <g id="_20" data-name="20" transform="translate(0 0)">
+        <path id="Path_1705" data-name="Path 1705" d="M43.128,19.188,25.071,1.163a4,4,0,0,0-5.648,0L1.39,19.188c-1.628,1.628-1.953,3.906-.334,5.452l.667.741c1.416,1.278,3.166,1.546,4.378.138,4.476-4.443,8.951-8.821,13.427-13.256a3.817,3.817,0,0,1,5.582,0c4.4,4.435,8.846,8.813,13.216,13.256,1.351,1.408,3.027,1.139,4.508-.138l.6-.741c1.628-1.546,1.286-3.833-.334-5.452Z" transform="translate(0.007 0.002)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
